@@ -1,5 +1,4 @@
 <?php require 'header.php'; ?>
-
     <div class="container mt-5">
         <h2 class="text-center">Générer un QR Code de Paiement</h2>
         <form action="generate_qr.php" method="post">
@@ -19,6 +18,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
 <?php require 'footer.php'; ?>
