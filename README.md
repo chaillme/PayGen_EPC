@@ -1,6 +1,6 @@
 # EPC Payment QR Code Generator
 
-This PHP application generates EPC (European Payments Council) payment QR codes using the phpQRcode library. The application also includes a transaction history feature. Currently, the application is available in French.
+This PHP application generates EPC (European Payments Council) payment QR codes using the phpQRcode library and SQLlite for database. The application also includes a transaction history feature. Currently, the application is available in French.
 
 ## Features
 - Generate EPC payment QR codes
@@ -10,7 +10,7 @@ This PHP application generates EPC (European Payments Council) payment QR codes 
 ## Requirements
 - PHP 7.4 or higher
 - phpQRcode library
-
+- Sqllite
 ## Installation
 ### Clone the repository:
   ```
